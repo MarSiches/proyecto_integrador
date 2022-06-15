@@ -15,55 +15,54 @@ El hotel tiene una variedad de servicios
 
 Los servicios estan divididos según las aéreas funcionales:
 
-- Departamento de Recepción
+    - Departamento de Recepción
 
-- Departamento de Limpieza 
+    - Departamento de Limpieza 
 
-- Departamento de Alimentos y Bebidas
+    - Departamento de Alimentos y Bebidas
 
-- Departamento de Producción de Alimentos
+    - Departamento de Producción de Alimentos
 
-- Departamento de Mantenimiento
+    - Departamento de Mantenimiento
 
-- Departamento de Compras, Ventas y Marketing
+    - Departamento de Compras, Ventas y Marketing
+
 
 
 El Hotel cuenta con 77 habitaciones
 
-- 44 habitaciones tienen accesibilidad para persona con diversidad funcional
+    - 44 habitaciones tienen accesibilidad para persona con diversidad funcional
 
-- 33 habitaciones ordinarias. 
+    - 33 habitaciones ordinarias. 
 
 
 
-Los tipos de habitaciones que cuenta el establecimiento son:
-  -  para 2 personas 
+El hotel tiene habitaciones para:
+  -  2 personas 
 
-  -  para 3 personas 
+  -  3 personas 
 
-  -  para 4 personas. 
+  -  4 personas. 
 
 
 En sus categorías: 
 
-    Simple o Estándar 
+  -  Simple o Estándar 
 
-    Lujo 
+  -  Lujo 
 
 
 Las habitaciones tienen las siguientes comodidades: 
 
-    camas King size o Queen Size 
+   - camas King size o Queen Size 
 
-    tv satelital HD
+   - tv satelital HD
 
-    cofre de seguridad 
+   - cofre de seguridad 
 
-    Split frio o calor
+   - equipo de aire frío o calor
 
-    calefacción  
-
-    baño privado. 
+   - baño privado. 
 
 
 Servicio de recepción 
@@ -107,24 +106,24 @@ Servicio de comida
 
 Servicios de confort   
 
--    piscina 
+    -    piscina 
 
--    circuito hídrico con accesibilidad 
+    -    circuito hídrico con accesibilidad 
 
--    amplio parque con flora local.
+    -    amplio parque con flora local.
 
 
 El hotel busca recibir 
 
-a turistas amantes de la naturaleza 
+    a turistas amantes de la naturaleza 
 
-que buscan vivir una experiencia 
+    que buscan vivir una experiencia 
 
-en contacto con la naturaleza y la selva de Misiones 
+    en contacto con la naturaleza y la selva de Misiones 
 
-con servicios de primer nivel 
+    con servicios de primer nivel 
 
-accesibles para personas con diversidad funcional.
+    accesibles para personas con diversidad funcional.
 
 
 -------------------------------------------
