@@ -1,8 +1,10 @@
-Nuestro Proyecto
+Proyecto Mocona
 
 Nuestro proyecto consiste en el desarrollo de un e-commerce 
 para un hotel 4 estrellas 
-que se encuentra en Altos de Mocona, Misiones. 
+que se encuentra en Altos de Mocona
+Provincia de Misiones. 
+Argentina.
 
 El hohtel tiene una variedad de servicios 
 Los servicios estan divididos según las aéreas funcionales:
@@ -14,7 +16,9 @@ Los servicios estan divididos según las aéreas funcionales:
  Departamento de Compras, Ventas y Marketing
 
 El Hotel cuenta con 77 habitaciones
-44 habitaciones tienen accesibilidad para persona con diversidad funcional. 
+44 habitaciones tienen accesibilidad para persona con diversidad funcional
+33 habitaciones ordinarias. 
+
 
 Los tipos de habitaciones que cuenta el establecimiento son:
     para 2 personas 
@@ -40,8 +44,9 @@ Servicio de recepción
     Inglés 
     Portugués.
 
-la limpieza es diaria 
-se reponen los productos de higiene personal 
+Servicio de limpieza
+    La limpieza es diaria 
+    se reponen los productos de higiene personal 
 
 Servicio de comida 
     El hotel tiene el desayuno incluido
