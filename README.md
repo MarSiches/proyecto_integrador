@@ -15,17 +15,17 @@ El hotel tiene una variedad de servicios
 
 Los servicios estan divididos según las aéreas funcionales:
 
-    - Departamento de Recepción
+    - Servicio de Recepción
 
-    - Departamento de Limpieza 
+    - Servicio de Limpieza 
 
-    - Departamento de Alimentos y Bebidas
+    - Servicio de Alimentos y Bebidas
 
-    - Departamento de Producción de Alimentos
+    - Servicio de Producción de Alimentos
 
-    - Departamento de Mantenimiento
+    - Servicio de Mantenimiento
 
-    - Departamento de Compras, Ventas y Marketing
+    - Servicio de Compras, Ventas y Marketing
 
 
 
