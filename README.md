@@ -135,3 +135,31 @@ El nicho de mercado al que está enfocado una parte del hotel es al turismo de d
 Se enfoca la oferta de servicios del hotel en las diferentes organizaciones que nuclean a estas personas. Ejemplos: en los diferentes sitios que tienen estas asociaciones civiles, ONG,  etc
 
 En cuento a comercialización del servicio se apunta a enfocar el mismo en diferentes campañas de google adwords,  posicionamiento web en buscadores, publicidad en instagran y Facebook e influencer con acciones de RR PP.
+
+-------------------------------------------
+
+Referentes del mercado
+
+Los siguientes enlaces fueron seleccionados por el equipo como referentes del sitio web que vamos a desarrollar.
+
+1. Alto del Angel Posada
+Pagina de referencia de Turismo inclusivo ubicado en Misiones-  
+http://altodelangelposada.com/#!/-bienvenido/?ancla=Nosotros
+
+
+2. Hotel UTHGRA de las Luces
+Este sitio es una buena referencia en cuanto a estructura de referencia y la seccion de accesibilidad.
+http://www.uthgradelasluces.com.ar/index.php?n1=home
+
+3. Bariloche cabañas Patagonia Sin Fronteras
+Otra referencia de turismo inclusivo.
+https://www.patagoniasinfronteras.com/es/index.html
+
+4.
+Puro Moconá Lodge - Encanto y confort en Saltos del Moconá
+Esta Web la tomamos como referencia de estructura completa ya que cuenta con paquete de promociones.
+https://puromocona.com.ar/
+
+5. Home
+Esta ultima nos ofrece un sitio Web completo de referencia con motor de reservas externo inlcuido.
+https://www.moconavirginlodge.com/es/index.html
