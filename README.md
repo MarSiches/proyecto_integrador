@@ -1,4 +1,9 @@
+Grupo n° 5
+
 Proyecto Mocona
+
+----------------------------
+
 
 Nuestro proyecto consiste en el desarrollo de un e-commerce 
 
@@ -29,11 +34,11 @@ Los servicios estan divididos según las aéreas funcionales:
 
 
 
-El Hotel cuenta con 77 habitaciones
+El Hotel cuenta con 20 habitaciones
 
-    - 44 habitaciones tienen accesibilidad para persona con diversidad funcional
+    - 10 habitaciones tienen accesibilidad para persona con diversidad funcional
 
-    - 33 habitaciones ordinarias. 
+    - 10 habitaciones ordinarias. 
 
 
 
