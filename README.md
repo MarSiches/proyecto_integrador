@@ -173,7 +173,7 @@ https://www.moconavirginlodge.com/es/index.html
 Quienes somos
 
 
-    - Gustavo 
+    - Gustavo Dinga
 
 
     - Marina Siches 
