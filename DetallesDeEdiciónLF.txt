@@ -13,3 +13,97 @@ con repetición de información
 sin metafora ni metonimias
 sujeto tácito 
 seguir logicas temporales
+
+    Tipografía 
+     
+Familias tipográficas 
+No utilizar más de dos familias diferentes en un mismo texto, 
+deben servir para diferenciar títulos y cuerpo de texto, 
+llamadas para aclaraciones o gráficos. 
+
+Se recomienda utilizar tipografías serif o sans serif nobles. 
+
+Se deben evitar las familias fantasía 
+y los caracteres muy adornados 
+o próximos a la letra manuscrita. 
+
+Se recomiendan las familias tipográficas: 
+Arial, Calibri, Helvética, Univers, Myriad, 
+Tahoma y Verdana. 
+Así como Times o Garamond. 
+
+Evitar variables demasiado pesadas (extrabold) 
+o demasiado livianas (Thin o light). 
+Evitar condensaciones 
+expansiones y las itálicas. 
+Evitar demasiados cambios de variables en un mismo párrafo. 
+El interletrado debe ser normal: 
+Ni muy ajustado ni muy sembrado
+
+
+    Parrafos
+
+Para párrafos de texto,
+se utilizará un cuerpo relativamente grande, 
+no menor de 12 pt ó 14 pt. 
+
+Se recomienda un interlineado amplio
+no menor de 1,2 ó 1,5. 
+Se debe cuidar de no exceder el interlineado 
+para que no se pierda 
+la visualización del párrafo. 
+Los parrafos deben diferenciarse entre sí 
+por un doble interlineado. 
+
+
+Listados 
+
+Es mejor utilizar viñetas 
+en vez de números de índice. 
+Utilizar diferentes viñetas para los subórdenes.
+
+
+Diagramación 
+Siempre alineación a la izquierda 
+sin justificarlos a la derecha. 
+Las páginas deben tener márgenes amplios 
+superiores, inferiores, interiores y exteriores. 
+
+Sobre el texto 
+- Corte de texto al final de las líneas
+ en cierres de contenido. 
+ - No partir las palabras con guiones. 
+ - No partir una frase entre dos páginas. 
+ - Es preferible cortar la línea de texto al terminar una idea 
+ aún cuando desperdicie espacio. 
+ - No dejar artículos, pronombres, conjunciones y preposiciones
+  al final de una línea. 
+  - Conviene imitar el número de líneas por página 
+  para no incluir una cantidad excesiva de información. 
+  - Evitar mucho uso de textos en mayúsculas. 
+  - Evitar signos ortográficos poco habituales.
+
+Organización en bloques
+
+Es conveniente organizar el texto en bloques, 
+dividiendo el contenido en párrafos y capítulos cortos, 
+de modo que sea más fácil hacer pausas 
+y seguir la lectura de forma ordenada. 
+
+
+    Ilustraciones 
+Las imágenes deben ser un apoyo al texto 
+y deben hacer referencia explícita al mismo. 
+Las imágenes deben ser fáciles de entender y reconocer, 
+sencillas, con pocos detalles, 
+sin contextos complejos 
+que distraigan de aquello que se quiere expresar. 
+Las fotografías con significados bien definidos 
+pueden ser útiles. 
+
+
+Se recomienda colocar las imágenes explicativas 
+a la izquierda con el texto a la derecha. 
+También se recomienda titular las imágenes. 
+
+
