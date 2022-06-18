@@ -180,6 +180,9 @@ Quienes somos
 
 
     - Gabriel Marx 
+        Analista de Sistemas
+        Propietario de F8 Soluciones Informaticas
+        
 
 
     - Mariana Elstner  
