@@ -59,9 +59,13 @@ En sus categorías:
 
 Las habitaciones tienen las siguientes comodidades:  
     -Wifi
+
     -Aire acondicionado Frio-Calor 
+
     -Ventilador de techo
+
     -Baño Privado
+    
     -Playa de estacionamiento gratuito. 
 
 
