@@ -168,7 +168,9 @@ Quienes somos
 
 
     - Gustavo Dinga
-
+        Lic. en Comercializacion.
+        Tecnico en Hoteleria y Turismo.
+        Cristiano, padre de Juani, Thiaguito y Esposo de Laura.
 
     - Marina Siches 
 
