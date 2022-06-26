@@ -9,5 +9,9 @@ app.get('/', (req, res) => {
 res.send("<h1>Proyecto Hotel Mocona</h1>")
 })
 
+app.get ('/', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/index.html"))
+})
+
 app.listen(3030,()=>console.log("El servidor 3030 esta corriendo"))
 
