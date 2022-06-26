@@ -9,7 +9,7 @@ Nuestro proyecto consiste en el desarrollo de un e-commerce
 
 para un hotel 4 estrellas 
 
-que se encuentra en Altos de Mocona
+que se encuentra en los Saltos de Mocona
 
 Provincia de Misiones. 
 
@@ -57,22 +57,21 @@ En sus categorías:
   -  Lujo 
 
 
-Las habitaciones tienen las siguientes comodidades: 
+Las habitaciones tienen las siguientes comodidades:  
+    -Wifi
 
-   - camas King size o Queen Size 
+    -Aire acondicionado Frio-Calor 
 
-   - tv satelital HD
+    -Ventilador de techo
 
-   - cofre de seguridad 
-
-   - equipo de aire frío o calor
-
-   - baño privado. 
+    -Baño Privado
+    
+    -Playa de estacionamiento gratuito. 
 
 
 Servicio de recepción 
 
-    Hay recepcion todo el día
+    Recepcion 24hs
 
     Servicio de recepcion en idioma 
 
@@ -96,12 +95,7 @@ Servicio de comida
 
     El hotel tiene el desayuno incluido
 
-    Se puede contratar la opcion de almuerzo
-
-    Se puede contratar la opcion de cena 
-
-    La comida se paga en el lugar. 
-
+    Se puede contratar la opcion de almuerzo/Cena
 
     Tiene una aérea de Banquetes y Agasajos de 200 metros 
 
@@ -139,7 +133,7 @@ El nicho de mercado al que está enfocado una parte del hotel es al turismo de d
 
 Se enfoca la oferta de servicios del hotel en las diferentes organizaciones que nuclean a estas personas. Ejemplos: en los diferentes sitios que tienen estas asociaciones civiles, ONG,  etc
 
-En cuento a comercialización del servicio se apunta a enfocar el mismo en diferentes campañas de google adwords,  posicionamiento web en buscadores, publicidad en instagran y Facebook e influencer con acciones de RR PP.
+En cuanto a comercialización del servicio se apunta a enfocar el mismo en diferentes campañas de google adwords,  posicionamiento web en buscadores, publicidad en instagran y Facebook e influencer con acciones de RR PP.
 
 -------------------------------------------
 
@@ -174,12 +168,17 @@ Quienes somos
 
 
     - Gustavo Dinga
-
+        Lic. en Comercializacion.
+        Tecnico en Hoteleria y Turismo.
+        Cristiano, padre de Juani, Thiaguito y Esposo de Laura.
 
     - Marina Siches 
 
 
     - Gabriel Marx 
+        Analista de Sistemas
+        Propietario de F8 Soluciones Informaticas
+        
 
 
     - Mariana Elstner  
