@@ -13,12 +13,15 @@ app.get ('/', (req, res) =>{
 app.get ('/habitaciones', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./views/habitaciones.html"))
 });
-app.get ('/servicio', (req, res) =>{
-    res.sendFile(path.resolve(__dirname, "./views/servicio.html"))
+app.get ('/servicios', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/servicios.html"))
 });
 app.get ('/login', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./views/login.html"))
-})
+});
+app.get ('/register', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/register.html"))
+});
 
 app.listen(3030,()=>console.log("El servidor 3030 esta corriendo"))
 
