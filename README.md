@@ -173,7 +173,7 @@ Quienes somos
         Cristiano, padre de Juani, Thiaguito y Esposo de Laura.
 
     - Marina Siches 
-        Gestión de proyectos en PMALATAM
+        Gestión de proyectos en PMALatam
 
     - Gabriel Marx 
         Analista de Sistemas
