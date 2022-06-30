@@ -178,22 +178,8 @@ Quienes somos
     - Gabriel Marx 
         Analista de Sistemas
         Propietario de F8 Soluciones Informaticas
-        
-
-
+   
     - Mariana Elstner  
         Lic en psicología y Lic. en Psicopedagogía.
-        Representante del área de desarrollo humano de la Fundación Visibilia
-        para la promoción de los derechos de accesibilidad cognitiva
-        con representatividad en la ONU para latinoamérica. 
         
-        Couch laboral para la Consultora Excelsium
-        para la promoción y sustentabilidad 
-        de la convivencia laboral de 
-        personas del espectro autista en mercado abierto.
-        
-        El aporte al proyecto será la visualización
-        aplicacion y prueba de las necesidades especificas 
-        de personas con diversidad funcional 
-        en la página del Hotel Mocona. 
 
