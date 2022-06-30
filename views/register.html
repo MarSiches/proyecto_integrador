@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+        <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+</head>
+<body>    
+        <form action="/" method="post" class="registro">
+            <div>
+            <p><br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            </p>
+        <p><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+        </p>
+        <p><br>
+            <label for="fechaNacimiento">Fecha Nacimiento:</label>
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="Fecha nacimiento" required>
+        </p>
+        <p><br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder = "E-mail" required>
+        </p>
+        <p><br>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="telefono" placeholder = "telefono" required>
+        </p>
+        <p><br>
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" name="domicilio" id="domicilio" placeholder = "Domicilio" value: maxlength="100"
+            required>
+        </p>
+        <p><br>
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad" value: maxlength="30"   placeholder = "Ciudad" 
+            required>
+        </p>
+        <p><br>
+            <label for="pais">Pais:</label>
+            <input type="text" name="pais" id="pais" placeholder = "Pais" required>
+        </p>
+        </div>
+        <div>
+        <p><label for="/necEspecifica">Marcá la necesidad especifica que necesitas
+                                    para que tengamos en cuenta</label></p>
+        <p><input type="checkbox" name="necEspecifica" value="Moto">motriz</p>
+        <p><input type="checkbox" name="necEspecifica" value="Ver">visual</p>
+        <p><input type="checkbox" name="necEspecifica" value="oir">auditiva</p>
+        <p><input type="checkbox" name="necEspecifica" value="senso">sensorial</p>
+        <p><input type="checkbox" name="necEspecifica" value="lect">cognitiva</p>
+        
+    </div> 
+        <p>
+           <label for="accesibiidad">Escribí aca si hay detalles de la accesibilidad especifica que necesitas</label>
+        <textarea name="accesibiidad" id="accesibiidad" class="accesibiidad" cols="30" rows="10"></textarea>
+        </p>
+   
+        
+           <button type="submit" id="submit">Enviar</button>
+        
+   </form>
+
+</body>
+</html>
