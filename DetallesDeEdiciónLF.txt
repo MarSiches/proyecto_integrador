@@ -1,3 +1,10 @@
+Paleta colores 
+#10151C
+#4D6137
+#F0EAD7
+#C6BAA6
+#685B4C
+ 
 Letra: sin deralles, dibujos y son separacion de letras extras. 
 Destacados: en negrita 
 No: subrayados, no Mayusculas en palabras enteras. 
