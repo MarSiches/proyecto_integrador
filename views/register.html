@@ -8,11 +8,13 @@
                 <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
 </head>
 <body>
-    <form action="/" method="post">
-        <p><br>
+    
+        <form action="/" method="post" class="registro">
+            <div>
+            <p><br>
             <label for="nombre">Nombre:</label>
             <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-        </p>
+            </p>
         <p><br>
             <label for="apellido">Apellido:</label>
             <input type="text" name="apellido" id="apellido" placeholder="Apellido">
@@ -36,26 +38,35 @@
             <input type="text" name="domicilio" id="domicilio" placeholder = "Domicilio" value: maxlength="100"
             >
         </p>
-        <p>
+        <p><br>
             <label for="ciudad">Ciudad:</label>
             <input type="text" name="ciudad" id="ciudad" value: maxlength="30"   placeholder = "Ciudad" 
             >
         </p>
-        <p>
+        <p><br>
             <label for="pais">Pais:</label>
             <input type="text" name="pais" id="pais" placeholder = "Pais">
         </p>
-    <div>
-        <form action="/necEspecifica" method="get" ></form>
-        <label for="/necEspecifica">Selecciona que accesibiidad necesitas que tengamos en cuenta</label>
-        <p><input type="checkbox" name="necEspecifica" id="NE"> </p>
-        <p><input type="checkbox" name="necEspecifica" value="Moto"><motriz</p>
+        </div>
+        <div>
+        <label for="/necEspecifica">Marcá la necesidad especifica que necesitas
+                                    para que tengamos en cuenta</label>
+        <p><input type="checkbox" name="necEspecifica" value="Moto">motriz</p>
         <p><input type="checkbox" name="necEspecifica" value="Ver">visual</p>
         <p><input type="checkbox" name="necEspecifica" value="oir">auditiva</p>
         <p><input type="checkbox" name="necEspecifica" value="senso">sensorial</p>
         <p><input type="checkbox" name="necEspecifica" value="lect">cognitiva</p>
-        </select> -->
+        
     </div> 
-    
+        <p>
+           <label for="accesibiidad">Escribí aca si hay detalles de la accesibilidad especifica que necesitas</label>
+        <textarea name="accesibiidad" id="accesibiidad" class="accesibiidad" cols="30" rows="10"></textarea>
+        </p>
+   
+        
+           <button type="submit" id="submit">Enviar</button>
+        
+   </form>
+
 </body>
 </html>
