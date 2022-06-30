@@ -1,5 +1,43 @@
+*{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+}
+
 body
 {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
-    background-color:#4D6137;
+    background-color:#865B4C;
 } 
+
+main section.presentation{
+    width:  100vw;
+    margin: 15px;
+}
+main div.principal-container{
+    width:  100vw;
+    background-color:#865B4C;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch; 
+    flex-wrap: nowrap;
+}
+
+main div.img{
+    display: flex;
+}
+
+main div.tittle{
+    color: #F0EAD7;
+    text-align:center;
+}
+
+h1{
+    font-size: 18px;
+
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+}
