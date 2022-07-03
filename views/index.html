@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>Hotel Moconá</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/normalize.css">
 </head>
-<body>
+<body class="home-container">
     <header></header>
     <section class="presentacion"> 
         <div class="titulo">
@@ -17,9 +17,82 @@
             <h1>Hotel Mocona</h1>
         </div>
         <div class="imagen">
-            <img src="./img/imagen principal.jpeg" alt="Imagen del Hotel">
+            <img src="./img/home1.jpeg" alt="Imagen del Hotel">
         </div>
-    </section>      
+        <div class="texto-presentacion">
+            <p>Hotel Mocona Misiones es lo rústico, una vuelta al origen, a lo primitivo, a lo salvaje.
+                Es la magia y el espíritu de la selva combinando lo virgen de la selva misionera y el espíritu de aventura con el cálido confort de la madera y naturaleza autoctona, diseñadas exclusivamente para que nuestros huéspedes disfruten al maximo de la naturaleza. Ademas somos el unico hotel de la provincia que cuenta con habitaciones adaptadas para huespedes con necesidades especificas generando asi una experiencia unica de turismo accesible.</p>
+        </div>
+    </section>
+    <section class="consulta">
+        <form action="/reservas1" method="post" class="Consulta"></form>
+        <h4>Consultá precios y fechas disponibles</h4>
+            <li>
+                <ul><label for="fechaEntrada">Fecha Entrada:</label>
+                    <input type="date" name="fechaEntrada" id="fechaEntrada" placeholder="Fecha Entrada" required></ul>
+                <ul><label for="fechaSalida">Fecha Salida:</label>
+                        <input type="date" name="fechaSalida" id="fechaSalida" placeholder="Fecha Salida" required></ul>
+                <ul><label for="cantidadHuespedes">Cantidad de Huespedes:</label>
+                    <select name="cantidadHuespedes" id="cantidadHuespedes" placeholder="Cantidad de Huespedes" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select></ul>
+                    <ul><label for="necesidadEspecifica">Marca la necesidad especifica que necesitas para que tengamos en cuenta:</label>
+                        <select name="necesidadHuespedes" id="necesidadHuespedes" placeholder="Necesidad Especifica" required>
+                            <option value="motriz">Motriz</option>
+                            <option value="visual">Visual</option>
+                            <option value="auditiva">Auditiva</option>
+                            <option value="sensorial">Sensorial</option>
+                            <option value="cognitiva">Cognitiva</option>
+                            <option value="ninguna">Ninguna</option>
+                        </select></ul>
+                    <button type="sumbit">Consultar</button>
+            </li>
+    </section>
+    <section class="experienciaUsuario">
+        <div id="container">
+            <h4>Qué dicen nuestros huespedes</h4>
+            <ul class="slider">
+              <li id="slide1">
+                <p>"Muy buenas cabañas, atencion excelente lo unico malo para criticar es el baño la bañadera de la cabaña exploradores, era muy alta y se complicaba para pasarnos a la silla ya que fuimos dos personas discapacitadas pero despues todo hermoso"</p>
+              </li>
+              <li id="slide2">
+                <p>"Hermoso por donde se lo mire. El personal siempre atento y predispuesto. Nos encantaron las instalaciones, la construccion, la ubicacion, Todo perfecto. Riquisima la cena, abundante y muy sabrosa. Volveremos y lo recomendaremos a todos. Para visitar la zona lo mejor es alojarse en Hotel Mocona""</p>
+              </li>
+              <li id="slide3">
+                <p>"El hotel se encuentra en una ubicación para mi gusto muy buena, ya que permite acceder al centro o a los Saltos sin necesidad de agarrar el tráfico."</p>
+              </li>
+            </ul>
+            
+            <ul class="menu">
+              <li>
+                <a href="#slide1">1</a>
+              </li>
+              <li>
+                <a href="#slide2">2</a>
+              </li>
+               <li>
+                <a href="#slide3">3</a>
+              </li>
+            </ul>
+            
+          </div>
+    </section>
+    <section class="mapa">
+        <div class="ubicacion">
+            <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42102.14616967442!2d-54.220535987603846!3d-27.289009860994646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f97bc76f883b4f%3A0x9bcf0c1d27b64565!2sEl%20Soberbio%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1656867833900!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="texto-ubicacion">
+            <h4>Ubicación Privilegiada</h4>
+            <p>Estamos estratégicamente emplazados en la costa del río en pleno centro urbano de El Soberbio, denominado “El Portal del Moconá” por tratarse del último poblado antes de ingresar en la Biósfera Yabotí, donde se encuentran el Parque Provincial Moconá.
+                El lodge posee acceso por avenida asfaltada, y su ingreso se ubica a sólo doscientos metros de la terminal de ómnibus local, donde arriban líneas de ómnibus de larga distancia procedentes de todo el país; y a pocos metros de la oficina de informes turísticos, de la costanera y del centro comercial de El Soberbio.
+                La opción ideal para quienes buscan relax y contacto con la naturaleza, pero estando siempre comunicados, ya que disponemos de wi.fi y señal de telefonía celular en todo el lodge</p>
+            </div>
+        </div>
+</section>
     <footer>
 
     </footer>>
