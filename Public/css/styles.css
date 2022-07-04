@@ -24,7 +24,7 @@ section.presentacion{
     place-content: block;
 }
 
-section div.titulo {
+section.presentacion div.titulo {
     width: 100%;
     color: #F0EAD7;
     flex-direction: column;
@@ -32,7 +32,7 @@ section div.titulo {
     padding: 10px;
     }
 
-section div.titulo h2{
+section.presentacion div.titulo h2{
     font-size: 4rem;
     text-align: center;
     margin: auto;
@@ -52,7 +52,7 @@ section div img{
     }
 section div.texto-presentacion{
     color:#F0EAD7;
-    text-align: justify;
+    text-align: left;
     margin: inherit;
     font-size: 1.2rem;
     padding: 20px;
