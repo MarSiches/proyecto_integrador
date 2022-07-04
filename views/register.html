@@ -11,13 +11,13 @@
 </head>
 <body>   
 
-        <seccion id ="registerHeader" >
+        <section id ="registerHeader" >
         <p>Registrate</p><br>
         <p>hace tu reserva</p><br>
         <p>recibi nuestras promociones</p> 
     
-        </seccion>
-     
+        </section>
+        <section class="contMadreRegistro">
         <form action="/" method="post" class="registro">
             <div>
             <p><br>
@@ -55,9 +55,11 @@
             <input type="text" name="pais" id="pais" placeholder = "Pais" required>
         </p>
     </div>
-   <div>
-        <br><p><label for="/necEspecifica">Marcá la necesidad especifica que necesitas
-                                    para que tengamos en cuenta</label></p>
+   <div class="NE">
+        <br>
+        <strong><label for="/necEspecifica">Marcá <br>la necesidad especifica que necesitas<br>
+                                    que tengamos en cuenta</label></strong>
+
         <p><input type="checkbox" name="necEspecifica" value="Moto">motriz</p>
         <p><input type="checkbox" name="necEspecifica" value="Ver">visual</p>
         <p><input type="checkbox" name="necEspecifica" value="oir">auditiva</p>
@@ -65,16 +67,19 @@
         <p><input type="checkbox" name="necEspecifica" value="lect">cognitiva</p>
         
     </div> 
-        <p>
-           <label for="accesibiidad">Escribí aca si hay detalles de la accesibilidad especifica que necesitas</label>
+    <div class="escribinos">        <p>
+           <br>
+        <strong><label for="accesibiidad">Escribí aca <br>si hay detalles de accesibilidad especifica <br>que necesites</label></strong>
         <textarea name="accesibiidad" id="accesibiidad" class="accesibiidad" cols="30" rows="10"></textarea>
         </p>
    
-        
-           <button type="submit" id="submit">Enviar</button>
-       // confirmacuon de reserva
+    </div>     
+</section> 
+<section class="botonEnviar">
+           <button type="submit" id="submit">Enviar</button> <div #"reservaPaso2"></div>
+        // confirmacion de reserva
 
    </form>
-
+</section> 
 </body>
 </html>
