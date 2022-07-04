@@ -1,19 +1,27 @@
 *{
-         box-sizing: border-box;
+        box-sizing: border-box;
 }
 
 body
 {
    font-family: Calibri, 'Trebuchet MS', sans-serif;
    background-color:#865B4C;
-} 
+}
+
+body.home-container{
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+
+}
 
 section.presentacion{
-    width: 100vw;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    place-content: block;
 }
 
 section div.titulo {
@@ -21,32 +29,123 @@ section div.titulo {
     color: #F0EAD7;
     flex-direction: column;
     align-items: center;
-    display: flex;}
-
-    section div.titulo h2{
-        font-size: 2.5rem;
-        text-align: center;
-    }
-    section div.titulo h1{
-        font-size: 2rem;
-        text-align: center;
+    padding: 10px;
     }
 
+section div.titulo h2{
+    font-size: 4rem;
+    text-align: center;
+    margin: auto;
+    }
+section div.titulo h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin:auto;
+}
 div.imagen{
-    width: 90%;
-    background-color: #4D6137;
     display:flex;
-    justify-content: center;
+    justify-content: start;
+    }
+section div img{
+    width: 100vw;
+    object-fit: cover;
+    }
+section div.texto-presentacion{
+    color:#F0EAD7;
+    text-align: justify;
+    margin: inherit;
+    font-size: 1.2rem;
+    padding: 20px;
+    }
+section.consulta{
+    width: 100%;
+    background-color: #F0EAD7;
+    color: #10151C;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 7px 2px #10151C(0, 0, 0, 0.75);
     align-items: center;
+    padding: 20px;
+    list-style: none;
+    }
+section.consulta h4{
+    display: flex;
+    margin:auto
+}
+section.consulta li{
+        width: 100%;
+        background-color: #F0EAD7;
+        color: #10151C;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        }
+    
+section.consulta ul{
+    width: 100%;
+    display: contents;
+    padding: 10%;
 }
 
-section div.imagen img{
-    width: 90vw;
+section.experienciaUsuario{
+    margin-top: 10px;
+}
+#container{
+    margin: auto;
+    background-color:#F0EAD7;
+    width: 100%;
+    padding: 30px;
+    color:#10151C;
+  }
+  
+  #container ul li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  #container ul.slider{
+    position: relative;
+    width: 100%;
+    height: 150px;
+  }
+  
+  #container ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background-color: #F0EAD7;;
+  }
+  
+  #container ul.slider li{
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  #container p{
+    background-color: #F0EAD7;
+    text-align: center;
+    margin: 3px, 10px 0px 10px;
+  }
+  #container ul.slider li:first-child {
+      opacity: 1;
+  }
+  
+  #container ul.slider li:target {
+      opacity: 1;
+  }
+
+#container ul.slider li:target{
+    opacity:1;
 }
 
 #registerHeader {
     display:block;
-    
     background-color:#C6BAA6;
     color:#10151C;
     font-family: Calibri, sans-serif ; 
@@ -60,3 +159,55 @@ section div.imagen img{
     line-height: 10px;
 }
 
+ul.menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  ul.menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  ul.menu li a{
+    display: initial;
+    color:#F0EAD7;
+    text-decoration: none;
+    background-color:#865B4C;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+
+div.ubicacion{
+    width: 100%;
+    background-color: #F0EAD7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+div.texto-ubicacion{
+    display: flex;
+    flex-direction: column;
+}
+
+
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    display:flex;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+        
