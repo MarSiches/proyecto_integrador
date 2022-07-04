@@ -8,6 +8,7 @@
     <title>Hotel Moconá</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="home-container">
     <header></header>
@@ -29,18 +30,18 @@
         <h4>Consultá precios y fechas disponibles</h4>
             <li>
                 <ul><label for="fechaEntrada">Fecha Entrada:</label>
-                    <input type="date" name="fechaEntrada" id="fechaEntrada" placeholder="Fecha Entrada" required></ul>
+                    <input type="date" class="fechaEntrada" name="fechaEntrada" id="fechaEntrada" placeholder="Fecha Entrada" required></ul>
                 <ul><label for="fechaSalida">Fecha Salida:</label>
-                        <input type="date" name="fechaSalida" id="fechaSalida" placeholder="Fecha Salida" required></ul>
+                        <input type="date" class="fechaSalida" name="fechaSalida" id="fechaSalida" placeholder="Fecha Salida" required></ul>
                 <ul><label for="cantidadHuespedes">Cantidad de Huespedes:</label>
-                    <select name="cantidadHuespedes" id="cantidadHuespedes" placeholder="Cantidad de Huespedes" required>
+                    <select name="cantidadHuespedes" class="cantidadHuespedes" id="cantidadHuespedes" placeholder="Cantidad de Huespedes" required>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                     </select></ul>
                     <ul><label for="necesidadEspecifica">Marca la necesidad especifica que necesitas para que tengamos en cuenta:</label>
-                        <select name="necesidadHuespedes" id="necesidadHuespedes" placeholder="Necesidad Especifica" required>
+                        <select name="necesidadHuespedes" class="tipoNecesidad" id="necesidadHuespedes" placeholder="Necesidad Especifica" required>
                             <option value="motriz">Motriz</option>
                             <option value="visual">Visual</option>
                             <option value="auditiva">Auditiva</option>
@@ -53,15 +54,17 @@
     </section>
     <section class="experienciaUsuario">
         <div id="container">
-            <h4>Qué dicen nuestros huespedes</h4>
             <ul class="slider">
-              <li id="slide1">
+              <li id="slide1"> 
+                <h4>Qué dicen nuestros huespedes</h4>
                 <p>"Muy buenas cabañas, atencion excelente lo unico malo para criticar es el baño la bañadera de la cabaña exploradores, era muy alta y se complicaba para pasarnos a la silla ya que fuimos dos personas discapacitadas pero despues todo hermoso"</p>
               </li>
               <li id="slide2">
+                <h4>Qué dicen nuestros huespedes</h4>
                 <p>"Hermoso por donde se lo mire. El personal siempre atento y predispuesto. Nos encantaron las instalaciones, la construccion, la ubicacion, Todo perfecto. Riquisima la cena, abundante y muy sabrosa. Volveremos y lo recomendaremos a todos. Para visitar la zona lo mejor es alojarse en Hotel Mocona""</p>
               </li>
               <li id="slide3">
+                <h4>Qué dicen nuestros huespedes</h4>
                 <p>"El hotel se encuentra en una ubicación para mi gusto muy buena, ya que permite acceder al centro o a los Saltos sin necesidad de agarrar el tráfico."</p>
               </li>
             </ul>
@@ -93,6 +96,7 @@
             </div>
         </div>
 </section>
+<div class="whatsapp">	<a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a></div>
     <footer>
 
     </footer>>
