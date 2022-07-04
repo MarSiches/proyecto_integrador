@@ -31,6 +31,11 @@ app.get ('/consultaHabitacion', (req, res) =>{
 app.get ('/turismoAccesible', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./views/turismoAccesible.html"))
 });
+app.get ('/politicasReserva', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/politicasReserva.html"))
+});app.get ('/galeria', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/galeria.html"))
+});
 
 app.get ('/reservaPaso2', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./views/reservaPaso2.html"))
