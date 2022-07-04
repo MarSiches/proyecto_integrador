@@ -46,9 +46,10 @@ section div.imagen img{
 
 #registerHeader {
     display:block;
-    margin 6px;
+    
     background-color:#C6BAA6;
-    color:#10151C; 
+    color:#10151C;
+    font-family: Calibri, sans-serif ; 
     font-size: 15px;
     font-style: normal;
     font-weight:bold ;
