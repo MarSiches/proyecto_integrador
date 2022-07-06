@@ -7,9 +7,8 @@ body {
 
 }
 
-/* Codigo del Header:logo y texto
- */
-header {
+/* Codigo del Header:logo y texto */
+header div {
     display: flex;
     justify-content: space-between;
     height: 190px;
@@ -49,19 +48,13 @@ section.presentacion {
 /*Titulo Vivi la Selva */
 .titulo {
     height: 10px;
-    margin-left: 300px;
+    margin-left: 450px;
     color: #fff;
 }
 
 section div.titulo h2 {
     font-size: 4rem;
     align-items: center;
-    text-align: center;
-    margin: auto;
-}
-
-section div.titulo h1 {
-    font-size: 1.5rem;
     text-align: center;
     margin: auto;
 }
