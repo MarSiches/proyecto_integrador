@@ -20,15 +20,22 @@ app.get ('/turismo_accesible', (req, res) =>{
 app.get ('/galeria', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./views/galeria.html"))
 });
-// app.get ('/login', (req, res) =>{
-//     res.sendFile(path.resolve(__dirname, "./views/login.html"))
-// });
-// app.get ('/register', (req, res) =>{
-//     res.sendFile(path.resolve(__dirname, "./views/register.html"))
-// });
-// app.post('/register', (req, res) =>{
-// res.sendFile(path.resolve(__dirname, "./views/register.html"))
-// })
+app.get ('/login', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/login.html"))
+});
+app.get ('/register', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/register.html"))
+});
+app.post('/register', (req, res) =>{
+res.sendFile(path.resolve(__dirname, "./views/register.html"))
+}); 
+app.get ('/cosultaHabitacion', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/consultaHabitacion.html"))
+});
+
+app.get ('/reservaPaso2', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/reservaPaso2.html"))
+});
 
 app.listen(3030,()=>console.log("El servidor 3030 esta corriendo"));
 
