@@ -1,0 +1,35 @@
+ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #C6BAA6;
+    line-height: 30px;
+    overflow: auto;
+    
+}
+
+li {
+
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+   
+}
+
+a {
+
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    
+    
+    
+}
+/*Efecto del mouse sobre menu */
+.nav-link:hover{
+    background-color: #f9a91a; 
+    color: #000;
+
+}
