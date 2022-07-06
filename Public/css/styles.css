@@ -50,12 +50,11 @@ section.presentacion {
 .titulo {
     height: 10px;
     margin-left: 450px;
-    color: #fff;
+    color: #F0EAD7;;
 }
 
 section div.titulo h2 {
     font-size: 4rem;
-    align-items: center;
     text-align: center;
     margin: auto;
 }
@@ -72,7 +71,7 @@ section div img {
 
 section div.texto-presentacion {
     color: #F0EAD7;
-    text-align: justify;
+    text-align: left;
     margin: inherit;
     font-size: 1.2rem;
     padding: 20px;
@@ -89,6 +88,7 @@ section.consulta {
     align-items: center;
     padding: 20px;
     list-style: none;
+    border-radius: 15%;
 }
 
 section.consulta h4 {
