@@ -28,9 +28,9 @@ res.sendFile(path.resolve(__dirname, "./views/register.html"))
 app.get ('/consultaHabitacion', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./views/consultaHabitacion.html"))
 });
-app.get ('/turismoAccesible', (req, res) =>{
-    res.sendFile(path.resolve(__dirname, "./views/turismoAccesible.html"))
-});
+// app.get ('/turismoAccesible', (req, res) =>{
+//     res.sendFile(path.resolve(__dirname, "./views/turismoAccesible.html"))
+// });
 app.get ('/politicasReserva', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./views/politicasReserva.html"))
 });app.get ('/galeria', (req, res) =>{
