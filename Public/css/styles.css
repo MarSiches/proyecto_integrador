@@ -254,7 +254,13 @@ section.contMadreRegistro  {
   } 
 section.botonEnviar{
 text-align: center;
+transition: font-weigth bolder  ;
 }
+section.botonEnviar:hover{
+    text-align: center;
+    transition:all font-weight bold;
+    }
+    
 div.NE{
   box-sizing: border-box;
 }
