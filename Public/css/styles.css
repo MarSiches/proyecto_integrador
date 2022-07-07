@@ -527,7 +527,13 @@ div.NE{
 /*css Comienzo Login*/
 .login{
     text-align: center;
-  }
+    background-color: #4D6137;
+    margin-top: 15%;
+    border: solid#C6BAA6;
+    border-radius: 5px;
+}
+
+
   label.password{
     font-size: x-large;
   }
@@ -535,6 +541,7 @@ div.NE{
   label.etiquetaEmail {
     margin-left: 40px;
     font-size: x-large;
+    text-align: center;
   }
   
   input#password {
