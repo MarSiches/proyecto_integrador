@@ -379,35 +379,6 @@ div.NE{
   box-sizing: border-box;
 }
 
-.login{
-  text-align: center;
-}
-label.password{
-  font-size: x-large;
-}
-
-label.etiquetaEmail {
-  margin-left: 40px;
-  font-size: x-large;
-}
-
-input#password {
-  margin-bottom: 2%;
-  margin-top: 2%;
-}
-input#passwordC{
-  margin-left: 120px;
-}
-input[type="button"] {
-  padding: 1%;
-  margin: 2%;
-  font-size: medium;
-}
-input[type="reset"] {
-  padding: 1%;
-  margin: 2%;
-  font-size: medium;
-}
 
 
 .container-card{
@@ -531,3 +502,35 @@ input[type="reset"] {
     text-align: center;
     color: #fff;
 }
+
+/*css Comienzo Login*/
+.login{
+    text-align: center;
+  }
+  label.password{
+    font-size: x-large;
+  }
+  
+  label.etiquetaEmail {
+    margin-left: 40px;
+    font-size: x-large;
+  }
+  
+  input#password {
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  input#passwordC{
+    margin-left: 120px;
+  }
+  input[type="button"] {
+    padding: 1%;
+    margin: 2%;
+    font-size: medium;
+  }
+  input[type="reset"] {
+    padding: 1%;
+    margin: 2%;
+    font-size: medium;
+  }
+ /*FIN CSS LOGIN*/ 
