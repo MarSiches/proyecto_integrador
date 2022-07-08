@@ -529,19 +529,18 @@ div.NE{
 .login{
     text-align: center;
     background-color: #4D6137;
-    margin-top: 15%;
+    margin: 15%;
     border: solid#C6BAA6;
     border-radius: 5px;
 }
 
 
   label.password{
-    font-size: x-large;
+    font-size: medium;
   }
   
   label.etiquetaEmail {
-    margin-left: 40px;
-    font-size: x-large;
+    font-size: medium;
     text-align: center;
   }
   
@@ -549,19 +548,22 @@ div.NE{
     margin-bottom: 2%;
     margin-top: 2%;
   }
-  input#passwordC{
-    margin-left: 120px;
-  }
+  
   input[type="button"] {
     padding: 1%;
     margin: 2%;
     font-size: medium;
+    align-items: center;
   }
   input[type="reset"] {
     padding: 1%;
     margin: 2%;
     font-size: medium;
   }
+  .botonEnviar{
+    text-align: center;
+    font-size: medium;
+      }
  /*FIN CSS LOGIN*/ 
 
  /*inicio Register*/
