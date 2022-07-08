@@ -564,4 +564,13 @@ div.NE{
   }
  /*FIN CSS LOGIN*/ 
 
- /*inicio Register
+ /*inicio Register*/
+ 
+ #registerHeader {
+    background-color: #4D6137; 
+    padding: 2px;
+    margin: 4px;
+    border: solid #F0EAD7;
+}
+ 
+    
