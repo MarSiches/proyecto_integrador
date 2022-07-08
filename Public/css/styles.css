@@ -46,7 +46,6 @@ section.presentacion {
     place-content: block;
 }
 
-<<<<<<< HEAD
 section.presentacion div.titulo {
     width: 100%;
     color: #F0EAD7;
@@ -56,16 +55,6 @@ section.presentacion div.titulo {
     }
 
 section.presentacion div.titulo h2{
-=======
-/*Titulo Vivi la Selva */
-.titulo {
-    height: 10px;
-    margin-left: 450px;
-    color: #F0EAD7;;
-}
-
-section div.titulo h2 {
->>>>>>> ae17621c524367346afab939044fad567e4fbbe1
     font-size: 4rem;
     text-align: center;
     margin: auto;
