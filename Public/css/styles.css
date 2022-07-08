@@ -548,22 +548,18 @@ div.NE{
     margin-bottom: 2%;
     margin-top: 2%;
   }
-  
-  input[type="button"] {
-    padding: 1%;
-    margin: 2%;
+
+  .botonEnviarLog{
+    text-align: right;
     font-size: medium;
-    align-items: center;
-  }
-  input[type="reset"] {
-    padding: 1%;
-    margin: 2%;
-    font-size: medium;
-  }
-  .botonEnviar{
-    text-align: center;
-    font-size: medium;
+    margin: 3px;
       }
+
+.botonVolver{
+    text-align: left;
+    font-size: medium;
+    margin: 3px;
+}
  /*FIN CSS LOGIN*/ 
 
  /*inicio Register*/
@@ -575,4 +571,10 @@ div.NE{
     border: solid #F0EAD7;
 }
  
+.botonEnviar{
+    text-align: center;
+    font-size: medium;
+      }
+
+/*fin CSS register*/
     
