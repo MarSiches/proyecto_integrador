@@ -528,6 +528,8 @@ div.NE{
 /*css Comienzo Login*/
 .login{
     text-align: center;
+    width: 200px;
+    height: auto;
     background-color: #4D6137;
     margin: 15%;
     border: solid#C6BAA6;
