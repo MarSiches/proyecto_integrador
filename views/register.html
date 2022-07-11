@@ -7,7 +7,7 @@
     <title>Register</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/normalize.css">
-        <li><a href="/"><i class="fa-solid fa-chevron-left"></i>Volver al incio <i class="far fa-id-card"></i></a></li>
+        <li><a href="/"></i>Volver al incio <i class="far fa-id-card"></i></a></li>
 </head>
 <body>   
     <header>
@@ -20,7 +20,7 @@
             <h2 class="titulo">Vivi la Selva</h2>
         </a>
     </header>
- 
+ <div id="bodyRegister">
        <section id ="registerHeader" >
         <p>Registrate</p><br>
         <p>hace tu reserva</p><br>
@@ -32,11 +32,13 @@
             <div>
             <p><br>
             <label for="nombre">Nombre:</label>
-            <br><input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            <br><input type="text" name="nombre" id="nombre" 
+            placeholder="Nombre" required maxlength="30">
             </p>
         <p><br>
             <label for="apellido">Apellido:</label>
-            <br><input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+            <br><input type="text" name="apellido" id="apellido" 
+            placeholder="Apellido" required maxlength="30">
         </p>
         <p><br>
             <label for="fechaNacimiento">Fecha Nacimiento:</label>
@@ -83,15 +85,38 @@
         <strong><label for="accesibiidad">Escribí aca <br>si hay detalles de accesibilidad especifica <br>que necesites</label></strong>
         <textarea name="accesibiidad" id="accesibiidad" class="accesibiidad" cols="30" rows="10"></textarea>
         </p>
-   
+    </div>
+    <div class="creaTuContrasenia">
+        <p><br>
+            <label for="password" class="password">Crea tu Contraseña:</label><br>
+            <input type="password" name="password" id="password" value="" placeholder="Contraseña" maxlength="30"
+                autocomplete="current-password" pattern="[A-Za-z0-9@#$%!]{8,20}" 
+                title="Una contraseña letra mayúscula o minúscula, o un dígito. 
+                La contraseña debe empezar con una letra y contener al menos un dígito" required readonly>
+            <br>
+                <input type="password" name="password" id="passwordC" value="" placeholder="Confirmar Contraseña"
+                autocomplete="current-password" required>
+        </p>
     </div>     
 </section> 
-<section class="botonEnviar">
-           <button type="submit" id="submit">Enviar</button> <div #"reservaPaso2"></div>
-        // confirmacion de reserva
+<section class="politicasDeReserva">
+    <p>Lee<a href=".politicasReserva.html"><strong>aqui</strong></a>nuestra política de reserva</p>
+    <br>
+    <p><input type="checkbox" name="aceptaPolitica"  id="aceptaPolitica" value="acepta" required> Acepto <br>la política y el reglamento para esta reserva</p>
 
-   </form>
-</section> 
+</section>
+
+    <section class="restaurar">
+    <input type="reset" value="Restaurar formulario">
+    </section>  
+
+    <section class="botonEnviar">
+           <button type="submit" id="submit">Enviar</button> <div #"reservaPaso2"></div>
+       
+        </section>    
+ 
+</form>
+</div> 
 <!--Pie Pagina  -->
 <footer>
     <div class="pie-pagina">
