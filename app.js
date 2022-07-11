@@ -35,9 +35,13 @@ app.get ('/cosultaHabitacion', (req, res) =>{
 app.get ('/politicasReserva', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./views/politicasReserva.html"))
 });
-app.get ('/reservaPaso2', (req, res) =>{
-    res.sendFile(path.resolve(__dirname, "./views/reservaPaso2.html"))
+app.get ('/reserva_pasob', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/reserva_pasob.html"))
 });
+app.get ('/reserva_pasoc', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/reserva_pasoc.html"))
+});
+
 
 app.listen(3030,()=>console.log("El servidor 3030 esta corriendo"));
 
