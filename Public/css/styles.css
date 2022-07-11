@@ -373,6 +373,7 @@ div.ubicacion {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     transition:all font-weight bold;
+    background-color: F0EAD7;
     }
     
 div.NE{
@@ -526,14 +527,18 @@ div.NE{
 
 
 /*css Comienzo Login*/
+#bodyLogin{
+    background-color: #F0EAD7;
+    box-sizing: border-box;
+    align-items:center;
+}     
 .login{
-    text-align: center;
     width: 200px;
     height: auto;
     background-color: #4D6137;
-    margin: 15%;
     border: solid#C6BAA6;
     border-radius: 5px;
+    
 }
 
 
@@ -565,18 +570,38 @@ div.NE{
  /*FIN CSS LOGIN*/ 
 
  /*inicio Register*/
- 
+
  #registerHeader {
     background-color: #4D6137; 
     padding: 2px;
     margin: 4px;
-    border: solid #F0EAD7;
+    border: solid #685B4C;
 }
+ #bodyRegister{
+    background-color: #F0EAD7;
+ }
  
 .botonEnviar{
-    text-align: center;
-    font-size: medium;
-      }
+    text-align: right;
+    font-size: large;
+    padding: 5px;
+    
+}
 
+.restaurar{
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+    transition: backgraund-color .5s
+    
+}
+.restaurar:hover{
+background-color: #;  
+}
+
+.politicasDeReserva{
+    margin: 20px 10px;
+}
 /*fin CSS register*/
     
