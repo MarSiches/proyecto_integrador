@@ -378,7 +378,7 @@ div.ubicacion {
     
 div.NE{
   box-sizing: border-box;
-}
+  }
 
 
 
@@ -620,7 +620,7 @@ div.NE{
 }
 
 
-.restaurar{
+input[type="button"]{
  display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -630,7 +630,6 @@ width: 166px;
 height: 45px;
 left: 873px;
 top: 1213px;
-color: #FFFFF;
 
 background: #4D6137;
 mix-blend-mode: normal;
@@ -650,8 +649,7 @@ border-radius: 20px;
     height: 45px;
     left: 873px;
     top: 1213px;
-    color: #FFFFF;
- 
+     
     background: #4D6137;
     mix-blend-mode: normal;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -662,4 +660,35 @@ border-radius: 20px;
         
 }
 /*fin CSS register*/
+
+/*comienza Politicas de reserva*/
+#bodyTextoPoliticas{
+    background-color: #F0EAD7;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ultexto{
+    
+}
+
+input[type="button"] {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 12px 16px;
+    width: 120px;
+    height: 45px;
+    left: 873px;
+    top: 1213px;
+    color: #F0EAD7;
+    background: #4D6137;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+}
+
     
