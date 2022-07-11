@@ -563,6 +563,7 @@ label.password{
     font-weight: 400;
     font-size: 20px;
   }
+  
   input.botonVolver {
     display: flex;
     flex-direction: row-reverse;
@@ -697,9 +698,6 @@ input.botonEnviar{
     font-size: 20px;
 }
 
-.ultexto{
-    
-}
 
 input.Continuar {
     display: flex;
