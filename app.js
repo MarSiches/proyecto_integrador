@@ -32,7 +32,9 @@ res.sendFile(path.resolve(__dirname, "./views/register.html"))
 app.get ('/cosultaHabitacion', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./views/consultaHabitacion.html"))
 });
-
+app.get ('/politicasReserva', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, "./views/politicasReserva.html"))
+});
 app.get ('/reservaPaso2', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./views/reservaPaso2.html"))
 });
