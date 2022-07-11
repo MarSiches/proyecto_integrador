@@ -543,28 +543,34 @@ div.NE{
 
 
   label.password{
-    font-size: medium;
+    font-weight: 400;
+    font-size: 20px;
   }
   
   label.etiquetaEmail {
-    font-size: medium;
+    font-weight: 400;
+    font-size: 20px;
     text-align: center;
   }
   
   input#password {
     margin-bottom: 2%;
     margin-top: 2%;
+    font-weight: 400;
+    font-size: 20px;
   }
 
   .botonEnviarLog{
+    font-weight: 400;
+    font-size: 20px;
     text-align: right;
-    font-size: medium;
     margin: 3px;
       }
 
 .botonVolver{
+    font-weight: 400;
+    font-size: 20px;
     text-align: left;
-    font-size: medium;
     margin: 3px 55px 3px 3px;
 }
  /*FIN CSS LOGIN*/ 
@@ -576,32 +582,84 @@ div.NE{
     padding: 2px;
     margin: 4px;
     border: solid #685B4C;
+    color: #F0EAD7; 
+    font-weight: 500;
+    font-size: 20px;
 }
  #bodyRegister{
     background-color: #F0EAD7;
+    font-weight: 400;
+    font-size: 20px;
+}
+ .checkboxNEregister{
+    margin-top: 5px;
+    margin-left: 15px;
  }
- 
-.botonEnviar{
-    text-align: right;
-    font-size: large;
-    padding: 5px;
-    
-}
 
-.restaurar{
-    text-align: left;
-    margin: 5px;
-    padding: 5px;
-    font-size: large;
-    transition: backgraund-color .5s
-    
-}
-.restaurar:hover{
-background-color: #;  
-}
+
+#passwordC{
+        font-weight: 400;
+        font-size: 20px;
+    }
 
 .politicasDeReserva{
-    margin: 20px 10px;
+
+    width: 441px;
+    height: 32px;
+    left: 233px;
+    top: 985px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    display: inline;
+    color: #000000;
+
+}
+
+
+.restaurar{
+ display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px 16px;
+
+width: 166px;
+height: 45px;
+left: 873px;
+top: 1213px;
+color: #FFFFF;
+
+background: #4D6137;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.botonEnviar{
+     
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 12px 16px;
+ 
+    width: 75px;
+    height: 45px;
+    left: 873px;
+    top: 1213px;
+    color: #FFFFF;
+ 
+    background: #4D6137;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 20px; 
+        
 }
 /*fin CSS register*/
     
