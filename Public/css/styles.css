@@ -21,8 +21,7 @@ header div {
     font-weight: 200;
     color: #f2efef;
     align-items: center;
-
-}
+    }
 
 .logo {
     display: flex;
@@ -37,7 +36,7 @@ header div {
 @media only screen and (min-width:320px) and (max-width:768px){
 	.logo{
 		flex-wrap: wrap;
-        
+       
 	}
 	.logo .titulo{
 		width: 80%;
@@ -698,6 +697,16 @@ input.botonEnviar{
     font-size: 20px;
 }
 
+.leer {
+position: fixed;    
+background-color:#C6BAA6 ;
+color: #4D6137;
+}
+
+.cuerpoLeer{
+
+margin-top: 50px;
+}
 
 input.Continuar {
     display: flex;
@@ -718,5 +727,10 @@ input.Continuar {
     font-size: 20px;
     margin: 30px 10px 30px 200px;
 }
+/*termina Politica de reserva*/
+
+/*comienza Reserva paso B*/
+
+/*termina Reserva paso C*/
 
     
