@@ -539,6 +539,10 @@ div.NE{
     background-color: #F0EAD7;
     box-sizing: border-box;
     align-items:center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
 }     
 .login{
     display: flex;
@@ -575,18 +579,15 @@ label.password{
   input.botonVolver {
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-end;
     padding: 12px 16px;
     width: 90px;
     height: 45px;
-    left: 873px;
-    top: 1213px;
     color: #F0EAD7;
     background: #4D6137;
     mix-blend-mode: normal;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    box-shadow: 0px 4px 4px #C6BAA6;
     border-radius: 20px;
-    text-align: right;
+    align-self: flex-start;   
     font-weight: 400;
     font-size: 20px;
     margin: 10px;
