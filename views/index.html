@@ -132,16 +132,15 @@
                     <option value="4">4</option>
                 </select>
             </ul>
-            <ul><label for="necesidadEspecifica">Marca la necesidad especifica que necesitas para que tengamos en
-                    cuenta:</label>
-                <select name="necesidadHuespedes" id="necesidadHuespedes" placeholder="Necesidad Especifica" required>
-                    <option value="motriz">Motriz</option>
-                    <option value="visual">Visual</option>
-                    <option value="auditiva">Auditiva</option>
-                    <option value="sensorial">Sensorial</option>
-                    <option value="cognitiva">Cognitiva</option>
-                    <option value="ninguna">Ninguna</option>
-                </select>
+            <ul><label for="/necEspecifica" class="marcador">Marcá la o las necesidades especificas que necesitas
+                para tener en cuenta</label>
+    
+            <div class="checkboxINregister">
+                <p>motriz</p><input type="checkbox" name="necEspecifica" value="Moto">
+                <p>visual</p><input type="checkbox" name="necEspecifica" value="Ver">
+                <p>auditiva</p><input type="checkbox" name="necEspecifica" value="oir">
+                <p>sensorial</p><input type="checkbox" name="necEspecifica" value="senso">
+                <p>cognitiva</p><input type="checkbox" name="necEspecifica" value="lect">
             </ul>
             <button type="sumbit">Consultar</button>
         </li>

@@ -88,8 +88,9 @@ section div.texto-presentacion {
     font-size: 1.2rem;
     padding: 20px;
 }
+/*Comienzo del formulario de consulta*/
 
-section.consulta {
+section.formulario-consulta  {
     width: 100%;
     background-color: #F0EAD7;
     color: #10151C;
@@ -100,28 +101,49 @@ section.consulta {
     align-items: center;
     padding: 20px;
     list-style: none;
-    border-radius: 15%;
 }
 
-section.consulta h4 {
+
+section.formulario-consulta h4 {
     display: flex;
     margin: auto
 }
 
-section.consulta li {
+section.formulario-consulta li {
     width: 100%;
-    background-color: #F0EAD7;
     color: #10151C;
     text-align: left;
-    display: flex;
     flex-direction: column;
 }
 
-section.consulta ul {
+section.formulario-consulta ul{
     width: 100%;
     display: contents;
-    padding: 10%;
+    padding: 5%;
+    margin: 5%;
 }
+section.formulario-consulta input{
+    width: 50%;
+    height: 20px;
+    display: block;
+   }
+   
+   section.formulario-consulta ul label.marcador{
+    text-align: left; 
+    display: flex;
+ }
+
+ section.formulario-consulta ul div.checkboxINregister{
+    display:flex;
+
+ }
+ section.formulario-consulta ul div.checkboxINregister p{
+    text-align: left;
+ }
+ section.formulario-consulta ul div.checkboxINregister input{
+    align-content: center;
+ }
+/*Fin de la barra de consulta */
 
 section.experienciaUsuario {
     margin-top: 10px;
@@ -622,10 +644,6 @@ input.botonEnviarLog{
     font-weight: 400;
     font-size: 20px;
 }
- .checkboxNEregister{
-    margin-top: 5px;
-    margin-left: 15px;
- }
 
 
 #passwordC{
@@ -687,6 +705,10 @@ input.botonEnviar{
     font-weight: 400;
     font-size: 20px; 
         
+}
+div.checkboxNEregister{
+    margin: 5%;
+    padding: 5%;
 }
 /*fin CSS register*/
 
