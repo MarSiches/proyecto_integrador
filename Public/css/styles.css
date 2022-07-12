@@ -699,7 +699,7 @@ input.botonEnviar{
 .leer {
     display: flex;
     position: fixed;
-    width: 100%;    
+    width: 98%;    
     height: 40px;
     background-color:#C6BAA6 ;
     color: #4D6137;
