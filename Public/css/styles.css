@@ -21,8 +21,7 @@ header div {
     font-weight: 200;
     color: #f2efef;
     align-items: center;
-
-}
+    }
 
 .logo {
     display: flex;
@@ -37,7 +36,7 @@ header div {
 @media only screen and (min-width:320px) and (max-width:768px){
 	.logo{
 		flex-wrap: wrap;
-        
+       
 	}
 	.logo .titulo{
 		width: 80%;
@@ -643,7 +642,7 @@ input.botonEnviarLog{
 
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 24px;
     align-items: center;
     display: inline;
@@ -669,7 +668,6 @@ border-radius: 20px;
 }
 
 input.botonEnviar{
-     
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
@@ -696,9 +694,21 @@ input.botonEnviar{
 #bodyTextoPoliticas{
     background-color: #F0EAD7;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
 }
 
+.leer {
+    display: flex;
+    position: fixed;
+    width: 98%;    
+    height: 40px;
+    background-color:#C6BAA6 ;
+    color: #4D6137;
+}
+
+.cuerpoLeer{
+    margin-top: 50px;
+}
 
 input.Continuar {
     display: flex;
@@ -719,5 +729,24 @@ input.Continuar {
     font-size: 20px;
     margin: 30px 10px 30px 200px;
 }
+/*termina Politica de reserva*/
+
+/*comienza Reserva paso B*/
+.cuerpoReservaPasoC{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1%;
+    padding: 2%;
+
+    background-color: #F0EAD7;
+    font-weight: 400;
+    font-size: 15px;
+}
+.infoReserva{
+    padding: 5px;
+}
+
+/*termina Reserva paso C*/
 
     

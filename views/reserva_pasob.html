@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terminos de tu reserva</title>
+    <title>Pagar</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/normalize.css">
 
@@ -21,15 +21,41 @@
         </a>
     </header>
 
-id="reservaPaso2" 
+<div class="cuerpoReservaPasoC">
 
-    // la perdona lee cómo quedo su reserva
-    //elije un metodo de pago
-    //adjuntar comprobante si es transferencia
+<div class="infoReserva">
+    <h3>Información de la reserva</h3>
+        <p><strong>Ingreso:</strong> 22/06/2022<br> 
+        <strong>Salida: </strong> 26/06/2022<br>
+        <strong>Adultos:</strong> 2 <br>
+        <strong>Niños:</strong> 0. <br>
+        <strong>Accesibiidad:</strong> Movilidad reducida (silla de ruedas)</p>
+    </div>
+<div class="pagar">
+    <h3>Pagar</h3>
+    <p>Eligi la forma de pago:</p>
+    <input type="checkbox" name="trasnferencia" value="tranferencia">Pagar por transferencia bancaria<br>
+    <input type="checkbox" name="mercadoPago" value="mercado">Pagar por Mercado Pago<br>
+    <input type="checkbox" name="tarjeta" value="tarjeta">Pagar con tarjeta de credito<br>
+    </div>
+<div class="datosBancarios">
+    <h4>Datos bancarios</h4>
+    <p>CBU:000000000000000</p>
+    <p>ALIAS: mocona_hotel</p>
+    </div>
+    
+<div class="comprobante">
+    <p>Adjunta el comprobante de pago</p><br>
+    <input type="file" name="adjuntar pago" value="adjunto">
+    </div>
+    
     // seleccionar desplegable con pasos de ML 
-    // marca aceptar a terminos y condiciones
+    
 
     // lo envia al paso 3 de reserva 
+    
+</div>
+<input type="button" name="Reservar" value="Reservar" class="reservar" <a href="/reserva_pasoc">>
 
     <!--Pie Pagina  -->
 <footer>
@@ -63,7 +89,7 @@ id="reservaPaso2"
             <small>&copy; 2022 <b>Hotel Mocona </b> - Todos los Derechos Reservados.</small>
         </div>
     </div>
-    </div>
+    
 
 </footer>
 
