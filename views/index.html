@@ -25,198 +25,118 @@
         <!-- Fin Encabezado -->
 
     </header>
-    <!--Menu  -->
-   
-        <nav>
-            <ul>
-                <li><a href="/" class="nav-link">Inicio</a></li>
-                <li><a href="/habitaciones" class="nav-link">Habitaciones</a>
-                <li>
-                <li> <a href="/servicios" class="nav-link">Servicios</a>
-                <li>
-                <li><a href="/turismo_accesible" class="nav-link">Turismo Accesible</a>
-                <li>
-                <li><a href="/galeria" class="nav-link">Galeria</a>
-                <li>
-
-            </ul>
-
-        </nav>
-    
-    <!--Slider y cuerpo de pagina  -->
-    <section class="presentacion">
-
-        <div class="slider">
+    <section class="presentacion"> 
+        <div class="titulo">
+            <h2>Vivi la Selva</h2>
+            <h1>Hotel Mocona</h1>
+        </div>
+        <div class="imagen">
             <img src="./img/home1.jpeg" alt="Imagen del Hotel">
         </div>
-
-        <!--Tarjetas x 3 columnas con imagenes y texto del Home-->
-        <div class="title-cards">
-            <h2>Servicios que Ofrecemos</h2>
-        </div>
-        <div class="container-card">
-
-            <div class="card">
-                <figure>
-                    <img src="/img/cabanas.jpg">
-                </figure>
-                <div class="contenido-card">
-                    <h3>Ecosuites</h3>
-                    <p>Cabaña para 8 pasajeros<br> accesibles para <br>gente con movilidad<br> reducida</p>
-                    <a href="#">Leer Màs</a>
-                </div>
-            </div>
-            <div class="card">
-                <figure>
-                    <img src="/img/cabanas2.jpg">
-                </figure>
-                <div class="contenido-card">
-                    <h3>Mastersuites</h3>
-                    <p>Ideal para parejas<br> o parejas con uno ó dos niños<br> Superficie: 40 m²<br> Categoría
-                        Confort<br> Terraza
-                        con vista al río<br> Garage cubierto</p>
-                    <a href="#">Leer Màs</a>
-                </div>
-            </div>
-            <div class="card">
-                <figure>
-                    <img src="/img/cabanas3.jpg">
-                </figure>
-                <div class="contenido-card">
-                    <h3>Standards</h3>
-                    <p>Ideal para parejas<br> amigos o viajeros <br>solitarios<br> Superficies desde 22 m²<br>
-                        Categoría Standard<br> Galería con vista al río<br> Garage cubierto</p>
-                    <a href="#">Leer Màs</a>
-                </div>
-            </div>
-        </div>
-
-
         <div class="texto-presentacion">
-            <h2>Cerca de todo... Lejos del estrés</h2>
-            <h3>EL ESCENARIO PERFECTO PARA COMENZAR Y FINALIZAR TUS DÍAS EN MOCONÁ</h3>
-            <p>
-                <p><strong>Hotel Mocona Misiones </strong><br>es un hotel rústico. <br>
-                    Alojarte en Hotel Moconá <br>
-                    es viajar de vuelta al origen <br>
-                    es viajar de vuelta a lo salvaje. <br>
+            <p><strong>Hotel Mocona Misiones </strong><br>es un hotel rústico. <br>
+                Alojarte en Hotel Moconá <br>
+                es viajar de vuelta al origen <br>
+                es viajar de vuelta a lo salvaje. <br>
 
-                    <br>Alojarte en Hotel Moconá<br>
-                    es vivir la magia <br>y el espíritu de la selva.<br>
-                    Es vivir la selva misionera <br>y el espíritu de aventura. <br>
+                <br>Alojarte en Hotel Moconá<br>
+                es vivir la magia <br>y el espíritu de la selva.<br>
+                Es vivir la selva misionera <br>y el espíritu de aventura. <br>
 
-                    <br>El hotel tiene un diseño cómodo <br>para nuestros huéspedes<br>
-                    para disfrutar de la naturaleza.<br>
-
-                    <br>Hotel Moconá <br>es el unico hotel de la provincia <br>
-                    que tiene<br> habitaciones de diseño universal<br>
-                    para vivir una experiencia de turismo accesible.</p>
+                <br>El hotel tiene un diseño cómodo <br>para nuestros huéspedes<br> 
+                para disfrutar de la naturaleza.<br>
+                 
+                <br>Hotel Moconá <br>es el unico hotel de la provincia <br>
+                que tiene<br><strong> habitaciones de diseño universal</strong><br> 
+                para vivir una experiencia de turismo accesible.</p>
         </div>
     </section>
-    <!--Formulario de Consulta -->
-    <section class="formulario-consulta">
+    <section class="consulta">
         <form action="/reservas1" method="post" class="Consulta"></form>
-        <h4>Consultá precios y fechas disponibles</h4>
-        <li>
-            <ul><label for="fechaEntrada">Fecha Entrada:</label>
-                <input type="date" name="fechaEntrada" id="fechaEntrada" placeholder="Fecha Entrada" required>
-            </ul>
-            <ul><label for="fechaSalida">Fecha Salida:</label>
-                <input type="date" name="fechaSalida" id="fechaSalida" placeholder="Fecha Salida" required>
-            </ul>
-            <ul><label for="cantidadHuespedes">Cantidad de Huespedes:</label>
-                <select name="cantidadHuespedes" id="cantidadHuespedes" placeholder="Cantidad de Huespedes" required>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-            </ul>
-            <ul><label for="necesidadEspecifica">Marca la necesidad especifica que necesitas para que tengamos en
-                    cuenta:</label>
-                <select name="necesidadHuespedes" id="necesidadHuespedes" placeholder="Necesidad Especifica" required>
-                    <option value="motriz">Motriz</option>
-                    <option value="visual">Visual</option>
-                    <option value="auditiva">Auditiva</option>
-                    <option value="sensorial">Sensorial</option>
-                    <option value="cognitiva">Cognitiva</option>
-                    <option value="ninguna">Ninguna</option>
-                </select>
-            </ul>
-            <button type="sumbit">Consultar</button>
-        </li>
+        <h4>Consultá precios y fechas disponibles</h4><br>
+            <li>
+                <ul><label for="fechaEntrada">Fecha Entrada:</label>
+                    <input type="date" class="fechaEntrada" name="fechaEntrada" id="fechaEntrada" placeholder="Fecha Entrada" required></ul>
+                <br><ul><label for="fechaSalida">Fecha Salida:</label>
+                        <input type="date" class="fechaSalida" name="fechaSalida" id="fechaSalida" placeholder="Fecha Salida" required></ul>
+                <br><ul><label for="cantidadHuespedes">Cantidad de Huespedes:</label>
+                    <select name="cantidadHuespedes" class="cantidadHuespedes" id="cantidadHuespedes" placeholder="Cantidad de Huespedes" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select></ul>
+                <br>    <ul><label for="necesidadEspecifica">Marca tu necesidad especifica <br>para tenerla en cuenta:</label>
+                        <select name="necesidadHuespedes" class="tipoNecesidad" id="necesidadHuespedes" placeholder="Necesidad Especifica" required>
+                            <option value="motriz">Motriz</option>
+                            <option value="visual">Visual</option>
+                            <option value="auditiva">Auditiva</option>
+                            <option value="sensorial">Sensorial</option>
+                            <option value="cognitiva">Cognitiva</option>
+                            <option value="ninguna">Ninguna</option>
+                        </select></ul>
+                   <br> <button type="sumbit">Consultar</button>
+            </li>
     </section>
-    <!--Fin Formulario de Consulta -->
-    <!--Mapa  -->
-    <section class="mapa">
-        <div class="ubicacion">
-            <div class="map-responsive">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28364.790486987153!2d-54.210223!3d-27.294442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f97bc76f883b4f%3A0x9bcf0c1d27b64565!2sEl%20Soberbio%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1657056446679!5m2!1ses-419!2sar"
-                    width="1000" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            </div>
-            <div class="texto-ubicacion">
-                <h4>Ubicación Privilegiada</h4>
-                <p>
-                    <p>Tenemos una excelente ubicacion<br>
-                        en la costa del río <br>
-                        en el centro urbano de:<br>
-                        El Soberbio<br>
-
-                        <br> Se lo llama <strong>“El Portal del Moconá”</strong><br>
-                        es el último pueblo antes de entrar en la Biósfera Yabotí<br>
-                        donde está el Parque Provincial Moconá. <br>
-                        <br> El ingreso está a una distancia<br>
-                        de dos cuadras de la terminal de colectivos<br>
-                        <br>El hotel queda a poca distancia de: <br>
-                        <li>de la oficina de informes turísticos</li>
-                        <li>de la costanera</li>
-                        <li>del centro comercial</li>.<br>
-                        La opción ideal <br>
-                        para quienes buscan relajarse <br> contacto con la naturaleza<br>
-                        y comodidades.
-                    </p>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!--Fin Mapa -->
     <section class="experienciaUsuario">
         <div id="container">
             <ul class="slider">
-                <li id="slide1">
-                    <p>"Muy buenas cabañas, atencion excelente lo unico malo para criticar es el baño la bañadera de la
-                        cabaña exploradores, era muy alta y se complicaba para pasarnos a la silla ya que fuimos dos
-                        personas discapacitadas pero despues todo hermoso"</p>
-                </li>
-                <li id="slide2">
-                    <p>"Hermoso por donde se lo mire. El personal siempre atento y predispuesto. Nos encantaron las
-                        instalaciones, la construccion, la ubicacion, Todo perfecto. Riquisima la cena, abundante y muy
-                        sabrosa. Volveremos y lo recomendaremos a todos. Para visitar la zona lo mejor es alojarse en
-                        Hotel Mocona""</p>
-                </li>
-                <li id="slide3">
-                    <p>"El hotel se encuentra en una ubicación para mi gusto muy buena, ya que permite acceder al centro
-                        o a los Saltos sin necesidad de agarrar el tráfico."</p>
-                </li>
+              <li id="slide1"> 
+                <h4>Qué dicen nuestros huespedes</h4>
+                <p>"Muy buenas cabañas, <br>atencion excelente lo unico malo para criticar es el baño <br>la bañadera de la cabaña exploradores, <br>era muy alta y se complicaba para pasarnos a la silla<br> ya que fuimos dos personas discapacitadas<br> pero despues todo hermoso"</p>
+              </li>
+              <li id="slide2">
+                <h4>Qué dicen nuestros huespedes</h4>
+                <p>"Hermoso por donde se lo mire. <br>El personal siempre atento y predispuesto. <br>Nos encantaron las instalaciones, la construccion, la ubicacion, Todo perfecto. <br>Riquisima la cena, abundante y muy sabrosa. <br>Volveremos y lo recomendaremos a todos. <br>Para visitar la zona lo mejor es alojarse en Hotel Mocona""</p>
+              </li>
+              <li id="slide3">
+                <h4>Qué dicen nuestros huespedes</h4>
+                <p>"El hotel se encuentra en una ubicación para mi gusto muy buena, <br>ya que permite acceder al centro o <br>a los Saltos sin necesidad de agarrar el tráfico."</p>
+              </li>
             </ul>
-
+            
             <ul class="menu">
-                <li>
-                    <a href="#slide1">1</a>
-                </li>
-                <li>
-                    <a href="#slide2">2</a>
-                </li>
-                <li>
-                    <a href="#slide3">3</a>
-                </li>
+              <li>
+                <a href="#slide1">1</a>
+              </li>
+              <li>
+                <a href="#slide2">2</a>
+              </li>
+               <li>
+                <a href="#slide3">3</a>
+              </li>
             </ul>
-
-        </div>
+            
+          </div>
     </section>
+    <section class="mapa">
+        <div class="ubicacion">
+            <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42102.14616967442!2d-54.220535987603846!3d-27.289009860994646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f97bc76f883b4f%3A0x9bcf0c1d27b64565!2sEl%20Soberbio%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1656867833900!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="texto-ubicacion">
+            <h4>Ubicación Privilegiada</h4>
+            <p>Tenemos una excelente ubicacion<br>
+                en la costa del río <br>
+                en el centro urbano de:<br> 
+                El Soberbio<br>
+                
+                <br> Se lo llama <strong>“El Portal del Moconá”</strong><br>
+                 es el último pueblo antes de entrar en la Biósfera Yabotí<br>
+                 donde está el Parque Provincial Moconá. <br>
+                <br> El ingreso está a una distancia<br> 
+                de dos cuadras de la terminal de colectivos<br>
+                <br>El hotel queda a poca distancia de: <br>
+                <li>de la oficina de informes turísticos</li>
+                <li>de la costanera</li>
+                <li>del centro comercial</li>.<br>
+                La opción ideal <br>
+                para quienes buscan relajarse <br> contacto con la naturaleza<br>
+                y comodidades.</p>
+            </div>
+        </div>
+</section>
+<div class="whatsapp">	<a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a></div>
 
     <!--Pie Pagina  -->
     <footer>
