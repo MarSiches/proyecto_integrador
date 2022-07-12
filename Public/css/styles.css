@@ -374,11 +374,12 @@ div.ubicacion {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     transition:all font-weight bold;
+    background-color: F0EAD7;
     }
     
 div.NE{
   box-sizing: border-box;
-}
+  }
 
 
 
@@ -527,40 +528,196 @@ div.NE{
 
 
 /*css Comienzo Login*/
+#bodyLogin{
+    background-color: #F0EAD7;
+    box-sizing: border-box;
+    align-items:center;
+}     
 .login{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
     background-color: #4D6137;
-    margin-top: 15%;
     border: solid#C6BAA6;
     border-radius: 5px;
+    
 }
-
-
-  label.password{
-    font-size: x-large;
+label.password{
+    font-weight: 400;
+    font-size: 20px;
   }
   
   label.etiquetaEmail {
-    margin-left: 40px;
-    font-size: x-large;
+    font-weight: 400;
+    font-size: 20px;
     text-align: center;
   }
-  
+ 
+  input#email {
+    font-size: 20px;
+}
   input#password {
     margin-bottom: 2%;
     margin-top: 2%;
+    font-weight: 400;
+    font-size: 20px;
   }
-  input#passwordC{
-    margin-left: 120px;
-  }
-  input[type="button"] {
-    padding: 1%;
-    margin: 2%;
-    font-size: medium;
-  }
-  input[type="reset"] {
-    padding: 1%;
-    margin: 2%;
-    font-size: medium;
-  }
+  
+  input.botonVolver {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 12px 16px;
+    width: 90px;
+    height: 45px;
+    left: 873px;
+    top: 1213px;
+    color: #F0EAD7;
+    background: #4D6137;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+}
+
+input.botonEnviarLog{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 12px 16px;
+    width: 110px;
+    height: 45px;
+    left: 873px;
+    top: 1213px;
+    color: #4D6137;
+    background:#F0EAD7;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px 20px 20px 150px;
+}
+
  /*FIN CSS LOGIN*/ 
+
+ /*inicio Register*/
+
+ #registerHeader {
+    background-color: #4D6137; 
+    padding: 2px;
+    margin: 4px;
+    border: solid #685B4C;
+    color: #F0EAD7; 
+    font-weight: 500;
+    font-size: 20px;
+}
+ #bodyRegister{
+    background-color: #F0EAD7;
+    font-weight: 400;
+    font-size: 20px;
+}
+ .checkboxNEregister{
+    margin-top: 5px;
+    margin-left: 15px;
+ }
+
+
+#passwordC{
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+.politicasDeReserva{
+
+    width: 441px;
+    height: 32px;
+    left: 233px;
+    top: 985px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    display: inline;
+    color: #000000;
+
+}
+
+input.restaurar{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px 16px;
+
+width: 166px;
+height: 45px;
+left: 873px;
+top: 1213px;
+
+background: #4D6137;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+input.botonEnviar{
+     
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 12px 16px;
+ 
+    width: 75px;
+    height: 45px;
+    left: 873px;
+    top: 1213px;
+     
+    background: #4D6137;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 20px; 
+        
+}
+/*fin CSS register*/
+
+/*comienza Politicas de reserva*/
+#bodyTextoPoliticas{
+    background-color: #F0EAD7;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+input.Continuar {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 12px 16px;
+    width: 120px;
+    height: 45px;
+    left: 873px;
+    top: 1213px;
+    color: #F0EAD7;
+    background: #4D6137;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 30px 10px 30px 200px;
+}
+
+    

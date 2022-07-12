@@ -7,7 +7,7 @@
     <title>Register</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/normalize.css">
-        <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+        <li><a href="/"></i>Volver al incio <i class="far fa-id-card"></i></a></li>
 </head>
 <body>   
     <header>
@@ -20,76 +20,138 @@
             <h2 class="titulo">Vivi la Selva</h2>
         </a>
     </header>
- 
+ <div id="bodyRegister">
        <section id ="registerHeader" >
-        <p>Registrate</p><br>
-        <p>hace tu reserva</p><br>
-        <p>recibi nuestras promociones</p> 
-    
+        <p>Completá tu reserva</p><br>
+        <p>registrate</p><br>
+        <p>accedé a nuestras promociones</p> 
         </section>
+    
         <section class="contMadreRegistro">
         <form action="/" method="post" class="registro">
             <div>
             <p><br>
             <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            <br><input type="text" name="nombre" id="nombre" 
+            placeholder="Nombre" required maxlength="30">
             </p>
         <p><br>
             <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+            <br><input type="text" name="apellido" id="apellido" 
+            placeholder="Apellido" required maxlength="30">
         </p>
         <p><br>
             <label for="fechaNacimiento">Fecha Nacimiento:</label>
-            <input type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="Fecha nacimiento" required>
+            <br><input type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="Fecha nacimiento" required>
         </p>
         <p><br>
             <label for="email">E-mail:</label>
-            <input type="email" name="email" id="email" placeholder = "E-mail" required>
+            <br><input type="email" name="email" id="email" placeholder = "E-mail" required>
         </p>
         <p><br>
             <label for="telefono">Telefono:</label>
-            <input type="tel" name="telefono" id="telefono" placeholder = "telefono" required>
+            <br><input type="tel" name="telefono" id="telefono" placeholder = "telefono" required>
         </p>
         <p><br>
             <label for="domicilio">Domicilio:</label>
-            <input type="text" name="domicilio" id="domicilio" placeholder = "Domicilio" value: maxlength="100"
+            <br><input type="text" name="domicilio" id="domicilio" placeholder = "Domicilio" value: maxlength="100"
             required>
         </p>
         <p><br>
             <label for="ciudad">Ciudad:</label>
-            <input type="text" name="ciudad" id="ciudad" value: maxlength="30"   placeholder = "Ciudad" 
+            <br><input type="text" name="ciudad" id="ciudad" value: maxlength="30"   placeholder = "Ciudad" 
             required>
         </p>
         <p><br>
             <label for="pais">Pais:</label>
-            <input type="text" name="pais" id="pais" placeholder = "Pais" required>
+            <br><input type="text" name="pais" id="pais" placeholder = "Pais" required>
         </p>
     </div>
-   <div class="NE">
+   <div class="NEregister">
         <br>
-        <strong><label for="/necEspecifica">Marcá <br>la necesidad especifica que necesitas<br>
-                                    que tengamos en cuenta</label></strong>
+        <label for="/necEspecifica">Marcá <br>la o las necesidades especificas 
+            <br><strong>que necesitas<br>
+            para tener en cuenta</label></strong>
 
+        <div class="checkboxNEregister">
         <p><input type="checkbox" name="necEspecifica" value="Moto">motriz</p>
         <p><input type="checkbox" name="necEspecifica" value="Ver">visual</p>
         <p><input type="checkbox" name="necEspecifica" value="oir">auditiva</p>
         <p><input type="checkbox" name="necEspecifica" value="senso">sensorial</p>
         <p><input type="checkbox" name="necEspecifica" value="lect">cognitiva</p>
-        
+        </div>
     </div> 
     <div class="escribinos">        <p>
            <br>
-        <strong><label for="accesibiidad">Escribí aca <br>si hay detalles de accesibilidad especifica <br>que necesites</label></strong>
+        <label for="accesibiidad">Escribí aca <br>si hay detalles de <strong>accesibilidad especifica</strong> <br>que necesites</label>
         <textarea name="accesibiidad" id="accesibiidad" class="accesibiidad" cols="30" rows="10"></textarea>
         </p>
-   
+    </div>
+    <div class="creaTuContrasenia">
+        <p><br>
+            <label for="password" class="password">Crea tu Contraseña:</label><br>
+            <input type="password" name="password" id="password" value="" placeholder="Contraseña" maxlength="30"
+                autocomplete="current-password" pattern="[A-Za-z0-9@#$%!]{8,20}" 
+                title="Una contraseña letra mayúscula o minúscula, o un dígito. 
+                La contraseña debe empezar con una letra y contener al menos un dígito" required readonly>
+            <br>
+                <input type="password" name="password" id="passwordC" value="" placeholder="Confirmar Contraseña"
+                autocomplete="current-password" required>
+        </p>
     </div>     
 </section> 
-<section class="botonEnviar">
-           <button type="submit" id="submit">Enviar</button> <div #"reservaPaso2"></div>
-        // confirmacion de reserva
+<section class="politicasDeReserva">
+    <p>Lee<a href="/politicasReserva"><strong>aqui</strong></a>nuestra política de reserva</p>
+    <br>
+    <p><input type="checkbox" name="aceptaPolitica"  id="aceptaPolitica" value="acepta" required> Acepto <br>la política y el reglamento para esta reserva</p>
 
-   </form>
-</section> 
+</section>
+
+    <div class="restaurar">
+    <input type="reset" value="Restaurar formulario" class="restaurarFormulario">
+    </div>  
+
+    <div class="botonEnviar">
+           <button type="submit" id="submit" class="enviarRegister">Enviar</button> <div #"reservaPaso2"></div>
+       
+    </div>    
+ 
+</form>
+</div> 
+<!--Pie Pagina  -->
+<footer>
+    <div class="pie-pagina">
+        <div class="grupo1">
+            <div class="box">
+                <h2>CONTACTO</h2>
+                <p>+54 3755-000000</p>
+                <p>reservas@hotelmocona.com.ar</p>
+                <p>RP N°2 km 35</p>
+            </div>
+            <div class="box">
+                <h2>MENU</h2>
+                <p><a href="/" class="nav-link">Inicio</a></p>
+                <p><a href="/habitaciones" class="nav-link">Habitaciones</a></p>
+                <p><a href="/servicios" class="nav-link">Servicios</a></p>
+                <p><a href="/turismo_accesible" class="nav-link">Turismo Accesible</a></p>
+                <p><a href="/galeria" class="nav-link">Galeria</a></p>
+
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa-brands fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>&copy; 2022 <b>Hotel Mocona </b> - Todos los Derechos Reservados.</small>
+        </div>
+    </div>
+    </div>
+
+</footer>
 </body>
 </html>
