@@ -618,19 +618,35 @@ input.botonEnviarLog{
  /*inicio Register*/
 
  #registerHeader {
-    background-color: #4D6137; 
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+    background-color: #4D6137;
     padding: 2px;
     margin: 4px;
     border: solid #685B4C;
-    color: #F0EAD7; 
-    font-weight: 500;
-    font-size: 20px;
+    color: #F0EAD7;
+    align-content: space-between;
+    width: 95%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+#registerHeader.ol{
+    display: flex;
 }
  #bodyRegister{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
     background-color: #F0EAD7;
     font-weight: 400;
     font-size: 20px;
-}
+ }
+    
  .checkboxNEregister{
     margin-top: 5px;
     margin-left: 15px;
