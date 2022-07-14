@@ -48,11 +48,7 @@ header div {
 
 
 /*Fin codigo */
-/*codigo que hizo Maru */
-*{
-    box-sizing: border-box;
-}
-
+/*Index*/
 body
 {
 font-family: Calibri, 'Trebuchet MS', sans-serif;
@@ -108,6 +104,8 @@ margin: inherit;
 font-size: 1.2rem;
 padding: 20px;
 }
+/*Barra de consulta de disponibilidad*/
+
 section.consulta{
 width: 100%;
 background-color: #F0EAD7;
@@ -138,7 +136,7 @@ width: 100%;
 display: contents;
 padding: 10%;
 }
-
+/* Sección comentarios de los huespedes*/
 section.experienciaUsuario{
 margin-top: 10px;
 }
@@ -216,8 +214,8 @@ height: 20px;
 font-size: 20px;
 border-radius: 100%;
 }
-
-div.ubicacion{
+/*Ubicacion*/
+section.ubicacion div.mapa{
 width: 100%;
 background-color: #F0EAD7;
 display: flex;
@@ -225,15 +223,19 @@ flex-direction: column;
 margin-top: 10px;
 }
 
-div.texto-ubicacion {
+section.ubicacion div.texto-ubicacion {
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding-left: 0.5em;
 }  
 
+section.ubicacion div.texto-ubicacion li{
+    width: 100%;
+    height: 20px;
+    text-align: initial;
+}
 
-.map-responsive{
+section.ubicacion div.map-responsive{
 overflow:hidden;
 padding-bottom:56.25%;
 position:relative;
@@ -241,13 +243,32 @@ height:0;
 display:flex;
 }
 
-.map-responsive iframe{
+section.ubicacion div.map-responsive iframe{
 left:0;
 top:0;
 height:100%;
 width:100%;
 position:absolute;
 }
+
+/*Fin seccion mapa*/ 
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
 /* FIN DEL INDEX/*
 /*CSS GALERIA*/
 * {
