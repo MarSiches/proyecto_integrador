@@ -553,6 +553,24 @@ div.NE{
         
     }
 }
+/*Comienzo de Habitaciones*/
+
+body.habitaciones{
+    background-color: #865B4C;
+} 
+
+body section.hab-container{
+    background-color: #F0EAD7;
+    box-sizing: border-box;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    display:flex;
+}
+
+section.hab-container div img{
+    align-content: flex-start;
+}
+
 
 
 /*css Comienzo Login*/
@@ -794,5 +812,3 @@ input.Continuar {
 }
 
 /*termina Reserva paso C*/
-
-    
