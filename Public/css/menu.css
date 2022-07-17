@@ -1,4 +1,4 @@
-ul {
+nav  ul.nav-header {
 
     list-style: none;
     padding: 0;
@@ -9,7 +9,7 @@ ul {
     
 }
 
-li {
+nav ul.nav-header li {
 
     width: 200px;
     text-align: center;

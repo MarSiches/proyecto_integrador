@@ -71,7 +71,7 @@ align-items: center;
 place-content: block;
 }
 
-section div.titulo {
+section.presentacion div.titulo {
 width: 100%;
 color: #F0EAD7;
 flex-direction: column;
@@ -79,25 +79,25 @@ align-items: center;
 padding: 10px;
 }
 
-section div.titulo h2{
+section.presentacion div.titulo h2{
 font-size: 4rem;
 text-align: center;
 margin: auto;
 }
-section div.titulo h1{
+section.presentacion div.titulo h1{
 font-size: 1.5rem;
 text-align: center;
 margin:auto;
 }
-div.imagen{
+section.presentacion div.imagen{
 display:flex;
 justify-content: start;
 }
-section div img{
+section.presentacion div.img img{
 width: 100vw;
 object-fit: cover;
 }
-section div.texto-presentacion{
+section.presentacion div.texto-presentacion{
 color:#F0EAD7;
 text-align: justify;
 margin: inherit;
@@ -559,20 +559,49 @@ body.habitaciones{
     background-color: #865B4C;
 } 
 
-body section.hab-container{
+body article.hab-container{
     background-color: #F0EAD7;
     box-sizing: border-box;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     border-radius: 4px;
     display:flex;
+    width: 100%;
+    flex-direction: column;
 }
 
-section.hab-container div img{
+article.hab-container div.hab{
+    display:flex;
+    flex-direction: column;
+}
+
+article.hab-container div img{
     align-content: flex-start;
+    display: flex;
+    width: 95vw;
+    object-fit: cover;
+    padding: 2%
 }
 
-
-
+article.hab.containter  div.hab li{
+    text-align: right;
+}
+article.hab-containter div.hab form input.boton-precio{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px 16px;
+    width: 90px;
+    height: 45px;
+    color: #F0EAD7;
+    background: #4D6137;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px #C6BAA6;
+    border-radius: 20px;
+    align-self: flex-start;   
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+}
+/*Fin Pagina Habitaciones*/
 /*css Comienzo Login*/
 #bodyLogin{
     background-color: #F0EAD7;
